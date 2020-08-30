@@ -9,14 +9,14 @@ int main (){
 		scanf("%d %d",&angka1, &angka2);
 		if (angka1 > angka2)
 			{
-				printf(">");
+				printf("%d > %d", angka1, angka2);
 			}
 		else if (angka1<angka2)
 			{
-				printf("<");
+				printf("%d < %d", angka1, angka2);
 			}
 		else{
-				printf("=");
+				printf("%d = %d", angka1, angka2);
 			}
 		printf("\n");
 	}
