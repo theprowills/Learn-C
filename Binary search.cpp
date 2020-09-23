@@ -15,10 +15,10 @@ int binarySearch ( int *arr, int left, int right,int target){
 	return -1;
 }
 
-int main (){
+int main (){ //mencari urutan
 	int n= 10,target;
 	int arr[10] = {2, 3, 5, 7, 9, 10, 11, 12, 14};
 	scanf("%d",&target);
-	printf("%d\n", binarySearch(arr,0,n-1,target));
+	printf("%d\n", binarySearch(arr,0,n-1,target)); 
 	return 0;
 }
